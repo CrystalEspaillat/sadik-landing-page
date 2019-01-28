@@ -1,0 +1,24 @@
+{
+  "name": "sadik-landing-page",
+  "version": "1.0.0",
+  "description": "Sadik Hadzovic's landing page.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CrystalEspaillat/sadik-landing-page.git"
+  },
+  "author": "Crystal Espaillat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CrystalEspaillat/sadik-landing-page/issues"
+  },
+  "homepage": "https://github.com/CrystalEspaillat/sadik-landing-page#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "path": "^0.12.7"
+  }
+}

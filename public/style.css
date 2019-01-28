@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Krub');
+@font-face {
+    font-family: "Wide Awake";
+    src: url("./WIDEAWAKE.TTF");
+    }
+    @font-face {
+        font-family: "Hemi Head";
+        src: url("./hemi\ head\ bd\ it.ttf");
+        }
+
+*, body {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* /////////////////////////////// */
+/* //////////ELEMENTS///////////// */
+/* /////////////////////////////// */
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Krub";
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 8rem;
+    font-family: "Wide Awake";
+    letter-spacing: 1px;
+}
+
+p {
+    font-family: "Lato";
+    padding: auto;
+}
+
+img {
+    width: 40%;
+}
+
+button {
+    text-transform: uppercase;
+    font-family: "Hemi Head";
+    font-size: 2rem;
+    padding: 20px 40px;
+    border: none;
+}
+
+#coaching-btn {
+    background-color: #1b1b1b;
+    color: white;
+}
+
+#ebooks-btn {
+    background-color: #fff;
+    color: #1b1b1b;
+}
+
+/* /////////////////////////////// */
+/* ////////// LAYOUT ///////////// */
+/* /////////////////////////////// */
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 100vh;
+    padding: 3rem;
+}
+
+#coaching {
+    background: repeating-linear-gradient(
+        45deg,
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5) 1px,
+        rgba(255, 255, 255, 0.6) 1px,
+        rgba(255, 255, 255, 0.6) 4px
+      ),
+      url(./1.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#coaching h1 {
+    color: #1b1b1b;
+}
+
+#ebooks {
+    background: repeating-linear-gradient(
+        135deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5) 1px,
+        rgba(0, 0, 0, 0.6) 1px,
+        rgba(0, 0, 0, 0.6) 4px
+      ),
+      url(./2.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#ebooks h1 {
+    color: rgb(255, 255, 255);
+    
+}
+
+/* /////////////////////////////// */
+/* ////////// MOBILE ///////////// */
+/* /////////////////////////////// */
+
+@media only screen and (max-width: 768px) {
+    section {   
+        width: 100%;
+        height: 50vh;
+    } 
+
+    h1 {
+        font-size: 6rem;
+    }
+
+    img {
+        display: none;
+    }
+
+    button {
+        font-size: 1.5rem;
+    }
+
+    #coaching {
+        background-position: top;
+    }
+
+}
