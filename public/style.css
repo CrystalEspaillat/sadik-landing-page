@@ -41,12 +41,14 @@ img {
     width: 40%;
 }
 
-button {
+.btn {
     text-transform: uppercase;
     font-family: "Hemi Head";
     font-size: 2rem;
     padding: 20px 40px;
     border: none;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 #coaching-btn {
