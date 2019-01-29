@@ -1,19 +1,25 @@
-@import url('https://fonts.googleapis.com/css?family=Lato');
-@import url('https://fonts.googleapis.com/css?family=Krub');
 @font-face {
     font-family: "Wide Awake";
     src: url("./WIDEAWAKE.TTF");
     }
-    @font-face {
-        font-family: "Hemi Head";
-        src: url("./hemi\ head\ bd\ it.ttf");
-        }
+@font-face {
+    font-family: "Futura";
+    src: url("./Futura_Book-Bold-Italic\ Regular.ttf");
+    }
 
 *, body {
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
 }
+
+*, body {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+
 
 /* /////////////////////////////// */
 /* //////////ELEMENTS///////////// */
@@ -43,7 +49,8 @@ img {
 
 .btn {
     text-transform: uppercase;
-    font-family: "Hemi Head";
+    font-family: "Futura"; 
+    font-style: italic;   
     font-size: 2rem;
     padding: 20px 40px;
     border: none;
